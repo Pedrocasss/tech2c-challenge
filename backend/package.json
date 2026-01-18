@@ -1,0 +1,19 @@
+{
+  "name": "tech2c-backend",
+  "version": "1.0.0",
+  "description": "Backend API for DGEG data processing",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "exceljs": "^4.4.0",
+    "multer": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
